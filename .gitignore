@@ -1,0 +1,34 @@
+# IDE
+.idea/
+.vscode/
+
+# env
+.env
+
+# air live reload tmp
+tmp/
+web/sw1site
+web/app.wasm
+
+# wasm files
+*.wasm
+
+# binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.sog
+*.dylib
+bin/
+
+# test binary, built with `go test -c`
+*.test
+
+# output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# dependency directories (remove the comment below to include it)
+vendor/
+
+# macOS junk
+.DS_Store
