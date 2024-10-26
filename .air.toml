@@ -5,7 +5,7 @@ tmp_dir = "tmp"
 [build]
   args_bin = []
   cmd = "make clean || true && make build"
-  bin = "web/sw1site"
+  bin = "docs/sw1pr0g"
   delay = 1000
   exclude_dir = ["assets", "tmp", "vendor", "testdata"]
   exclude_file = []
