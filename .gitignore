@@ -7,11 +7,6 @@
 
 # air live reload tmp
 tmp/
-web/sw1site
-web/app.wasm
-
-# wasm files
-*.wasm
 
 # binaries for programs and plugins
 *.exe
