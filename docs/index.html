@@ -1,18 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sw1pr0g</title>
-    <script src="/wasm_exec.js"></script>
-    <script>
-        const go = new Go();
-        WebAssembly.instantiateStreaming(fetch("/web/app.wasm"), go.importObject).then((result) => {
-            go.run(result.instance);
-        });
-    </script>
+<meta charset="UTF-8">
+<meta name="author" content="Alex Poryadin">
+<meta name="description" content="sw1pr0g personal page">
+<meta name="keywords" content>
+<meta content="#2d2c2c" name="theme-color">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover" name="viewport">
+<meta property="og:url" content="http://127.0.0.1:53324/">
+<meta property="og:title" content="sw1pr0g">
+<meta property="og:description" content="sw1pr0g personal page">
+<meta property="og:type" content="website">
+<meta content property="og:image">
+<title>sw1pr0g</title>
+<link type="text/css" rel="preload" href="/app.css" as="style">
+<link rel="icon" type="image/png" href="/web/logo.png">
+<link rel="apple-touch-icon" href="/web/logo.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<link type="text/css" href="/app.css" rel="stylesheet">
+<script src="/wasm_exec.js" defer></script>
+<script defer src="/app.js"></script>
 </head>
 <body>
-<div id="app"></div>
+<div>
+<p>sw1prog&#39;s home.. maybe you were waiting for the design, but I don&#39;t care about that</p>
+<p>
+i have a 
+<a target="_blank" href="https://t.me/sw1pr0g_channel">telegram channel</a>
+</p>
+<p>
+check out my 
+<a target="_blank" href="https://github.com/sw1pr0g">github</a>
+</p>
+</div>
+<aside id="app-wasm-loader" class="goapp-app-info">
+<img id="app-wasm-loader-icon" class="goapp-logo goapp-spin" src="https://raw.githubusercontent.com/maxence-charriere/go-app/master/docs/web/icon.png">
+<p id="app-wasm-loader-label" class="goapp-label">0%</p>
+</aside>
 </body>
 </html>

@@ -1,0 +1,27 @@
+{
+  "short_name": "sw1pr0g",
+  "name": "sw1pr0g",
+  "description": "sw1pr0g personal page",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/maxence-charriere/go-app/master/docs/web/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/maxence-charriere/go-app/master/docs/web/icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/maxence-charriere/go-app/master/docs/web/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "scope": "/",
+  "start_url": "/",
+  "background_color": "#2d2c2c",
+  "theme_color": "#2d2c2c",
+  "display": "standalone"
+}
