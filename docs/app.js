@@ -5,7 +5,7 @@ var goappNav = function () {};
 var goappOnUpdate = function () {};
 var goappOnAppInstallChange = function () {};
 
-const goappEnv = {"GOAPP_INTERNAL_URLS":"null","GOAPP_ROOT_PREFIX":"","GOAPP_STATIC_RESOURCES_URL":"","GOAPP_VERSION":"6f1094d6113b3f46ad52c4e0b84bea8f5c0fc8a8"};
+const goappEnv = {"GOAPP_INTERNAL_URLS":"null","GOAPP_ROOT_PREFIX":"","GOAPP_STATIC_RESOURCES_URL":"","GOAPP_VERSION":"a6db1901aabd9bc918c1fed57b96597f664f266e"};
 const goappLoadingLabel = "sw1pr0g's personal page loading..";
 const goappWasmContentLengthHeader = "";
 
