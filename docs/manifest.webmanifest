@@ -4,7 +4,7 @@
   "description": "sw1pr0g's personal page",
   "icons": [
     {
-      "src": "https://raw.githubusercontent.com/maxence-charriere/go-app/master/docs/web/icon.svg",
+      "src": "/web/logo.png",
       "type": "image/svg+xml",
       "sizes": "any"
     },

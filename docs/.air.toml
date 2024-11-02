@@ -4,7 +4,7 @@ tmp_dir = "tmp"
 
 [build]
   args_bin = []
-  cmd = "make clean || true && make build"
+  cmd = "cd .. || make clean || true && make build"
   bin = "sw1pr0g local"
   delay = 1000
   exclude_dir = ["assets", "tmp", "vendor", "testdata"]

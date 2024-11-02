@@ -1,8 +1,8 @@
-const cacheName = "app-" + "a6db1901aabd9bc918c1fed57b96597f664f266e";
+const cacheName = "app-" + "af228572917830dc3f88903bd0811205b6cc056e";
 const resourcesToCache = ["/","/app.css","/app.js","/manifest.webmanifest","/wasm_exec.js","/web/app.wasm","/web/logo.png"];
 
 self.addEventListener("install", (event) => {
-  console.log("installing app worker a6db1901aabd9bc918c1fed57b96597f664f266e");
+  console.log("installing app worker af228572917830dc3f88903bd0811205b6cc056e");
 
   event.waitUntil(
     caches
@@ -28,7 +28,7 @@ self.addEventListener("activate", (event) => {
       );
     })
   );
-  console.log("app worker a6db1901aabd9bc918c1fed57b96597f664f266e is activated");
+  console.log("app worker af228572917830dc3f88903bd0811205b6cc056e is activated");
 });
 
 self.addEventListener("fetch", (event) => {

@@ -9,7 +9,7 @@ type Home struct {
 func (h *Home) Render() app.UI {
 	return app.Div().Body(
 		app.P().
-			Text("sw1prog's home.. maybe you were waiting for the design, but I don't care about that"),
+			Text("sw1prog's personal page.. maybe you were waiting for the design, but I don't care about that"),
 		app.P().Body(
 			app.Text("i have a "),
 			app.A().
