@@ -18,4 +18,4 @@ Then run:
 
 ## License
 
-The source code is licensed under [MIT](https://github.com/sw1pr0g/sw1pr0g.github.io/blob/master/LICENSE).
+The source code is licensed under [MIT](https://github.com/sw1pr0g/sw1pr0g.github.io/blob/dev/LICENSE).
