@@ -5,7 +5,7 @@ build:
 run: build
 	@cd docs && ./sw1pr0g local
 
-develop:
+dev:
 	@cd docs && air
 
 build-github: build
