@@ -12,14 +12,21 @@ func (h *Home) Render() app.UI {
 			app.Text("sw1prog's personal page.. if you want the design, feel free to make a pull request "),
 			app.A().
 				Text("here").
-				Href("https://github.com/sw1pr0g/sw1pr0g.github.io"),
-			app.Text(", haha"),
+				Href("https://github.com/sw1pr0g/sw1pr0g.github.io/pulls"),
+			app.Text(", heh"),
 		),
 		app.P().Body(
-			app.Text("i have own blog in "),
+			app.Text("i have own "),
 			app.A().
-				Text("telegram").
-				Href("https://t.me/gopherlog"),
+				Text("blog").
+				Href("https://t.me/sw1blog"),
+			app.Text(" where i write about coding, sometimes music and other stuff"),
+		),
+		app.P().Body(
+			app.Text("all my talks about software you can find "),
+			app.A().
+				Text("here").
+				Href("https://github.com/sw1pr0g/talks"),
 		),
 		app.P().Body(
 			app.Text("check out my "),
