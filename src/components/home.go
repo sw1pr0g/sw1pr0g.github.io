@@ -19,7 +19,7 @@ func (h *Home) Render() app.UI {
 			app.Text("i have own "),
 			app.A().
 				Text("blog").
-				Href("https://t.me/sw1blog"),
+				Href("https://t.me/dev_unplugged"),
 			app.Text(" where i write about coding, sometimes music and other stuff"),
 		),
 		app.P().Body(
