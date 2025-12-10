@@ -1,6 +1,6 @@
 # sw1pr0g's personal page
 
-[Watch live!](https://sw1pr0g.github.io)
+[Watch live!](http://sw1pr0g.com)
 
 
 ## Development
