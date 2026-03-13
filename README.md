@@ -5,4 +5,5 @@
 
 ## License
 
-The source code is licensed under [MIT](https://github.com/sw1pr0g/sw1pr0g.github.io/blob/dev/LICENSE).
+The source code is licensed under [MIT](/LICENSE).
+The content is licensed under [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
