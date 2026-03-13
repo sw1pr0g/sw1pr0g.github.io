@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>sw1pr0g</ShortName>
+  <Description>sw1pr0g's personal page</Description>
+  <Contact>sw1pr0g.dev@gmail.com</Contact>
+  <Url type="text/html" template="https://sw1pr0g.com/"/>
+  <Image height="530" width="530" type="image/png">https://sw1pr0g.com/favicon.png</Image>
+  <Developer>Alex Poryadin</Developer>
+  <SyndicationRight>open</SyndicationRight>
+  <AdultContent>false</AdultContent>
+  <Language>en-us</Language>
+  <OutputEncoding>UTF-8</OutputEncoding>
+  <InputEncoding>UTF-8</InputEncoding>
+</OpenSearchDescription>
